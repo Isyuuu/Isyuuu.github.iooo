@@ -1,6 +1,30 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     box-sizing: border-box;
-    border: 10px solid #ecc295cf;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.img-start {
+    border: 5px solid pink;
+}
+
+#img-cover{
+    border: 5px solid plum;
+}
+.relative{
+    background: pink;
+    width: 500px;
+    height: 500px;
+    margin-left: 30px
+}
+.absoiute{
+    background: plum;
+    width: 100px;
+    height: 100px;
 }
